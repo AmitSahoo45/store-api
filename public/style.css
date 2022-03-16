@@ -1,0 +1,99 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+
+.landing_page {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    background: #ddd6f3;
+    background: -webkit-linear-gradient(to right, #faaca8, #ddd6f3);
+    background: linear-gradient(to right, #faaca8, #ddd6f3);
+}
+
+.image_area {
+    flex: 0.4;
+    position: relative;
+}
+
+.image {
+    position: relative;
+    margin: 0 auto;
+    border: 0;
+    width: 300px;
+    overflow: hidden;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.image img {
+    width: 100%;
+}
+
+.tag {
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    z-index: 10;
+    width: 80px!important;
+}
+
+.text_area {
+    position: relative;
+    flex: 0.6;
+}
+
+.text {
+    padding: 0 0 0 3rem;
+}
+
+.text h1 {
+    line-height: 2.5rem;
+    font-size: 3rem;
+}
+
+.text p {
+    line-height: 1.5rem;
+    margin: 1.5rem 0;
+    font-size: 1.5rem;
+}
+
+.text a {
+    text-decoration: none;
+    line-height: 2rem;
+    font-size: 1rem;
+    color: #000000;
+    padding: 0.8rem;
+    background-color: #F6B1B1;
+    border: 1px solid #212121;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.price{
+    position: absolute;
+    top: 2.5rem;
+    right: 2.5rem;
+    z-index: 10;
+    width: 100px;
+}
+
+.parcel {
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+    z-index: 10;
+    width: 200px;
+}
